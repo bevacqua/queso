@@ -1,0 +1,20 @@
+{
+  "name": "queso",
+  "version": "1.0.0",
+  "description": "Turn a plain object into a query string",
+  "main": "queso.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bevacqua/queso.git"
+  },
+  "author": "Nicolas Bevacqua <nicolasbevacqua@gmail.com> (http://bevacqua.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bevacqua/queso/issues"
+  },
+  "homepage": "https://github.com/bevacqua/queso",
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}
