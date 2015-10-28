@@ -13,14 +13,14 @@ npm install queso --save
 You can use `queso` to generate a full query string.
 
 ```js
-queso({ foo: 'bar', baz: true });
+queso.stringify({ foo: 'bar', baz: true });
 // <- ?foo=bar&baz
 ```
 
 You can also demand that the prefix is always an ampersand `&`.
 
 ```js
-queso({ foo: 'bar', baz: true }, true);
+queso.stringify({ foo: 'bar', baz: true }, true);
 // <- &foo=bar&baz
 ```
 
